@@ -1,4 +1,4 @@
-float	id_sqrt(float m)
+float	id_sqrt(float number)
 	{
 	float i;
 	float x1;
@@ -6,13 +6,13 @@ float	id_sqrt(float m)
 
 	i = 0;
 
-	while ((i * i) <= m )
+	while ((i * i) <= number )
 		i+=0.1;
 	x1 = i;
 	i = 0;
 	while (i < 10)
 	{
-		x2 = m;
+		x2 = number;
 		x2 /= x1;
 		x2 += x1;
 		x2 /= 2;
